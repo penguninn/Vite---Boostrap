@@ -1,0 +1,7 @@
+.blur-custom {
+    /* Màu trắng hơi trong suốt */
+    backdrop-filter: blur(10px);
+    /* Làm mờ nền phía sau (nếu cần) */
+    -webkit-backdrop-filter: blur(10px);
+    /* Hỗ trợ cho trình duyệt WebKit */
+}

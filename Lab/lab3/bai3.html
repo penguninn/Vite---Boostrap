@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../bootstrap-5.3.3-dist/css/bootstrap.min.css" />
+    <script src="../bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <style>
+        .nav-link:hover {
+            color: green;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-info-subtle">
+        <div class="container">
+            <a class="navbar-brand" href="Lab3Index.html">
+                <img src="../../Bài Lab/Lab 1/Lab1 - Tài Nguyên/images/logo-energy-pilates.png" alt="Logo"
+                    height="50" />
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link d-flex align-items-center gap-2" href="Lab3ChuyenMuc.html">
+                            <i class="fa-solid fa-list" aria-label="Bài viết"></i> Bài viết
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link d-flex align-items-center gap-2" href="#">
+                            <i class="fa-solid fa-film" aria-label="Video"></i> Video
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link d-flex align-items-center gap-2" href="#">
+                            <i class="fa-solid fa-circle-info" aria-label="Giới thiệu"></i>
+                            Giới thiệu
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link d-flex align-items-center gap-2" href="#">
+                            <i class="fa-solid fa-calendar-days" aria-label="Sự kiện"></i>
+                            Sự kiện
+                        </a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle d-flex align-items-center gap-2" href="#" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="fa-solid fa-user" aria-label="Tài khoản"></i> Tài
+                            khoản
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Đăng nhập</a></li>
+                            <li><a class="dropdown-item" href="#">Quên mật khẩu</a></li>
+                            <li>
+                                <a class="dropdown-item" href="#">Đăng ký thành viên</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul class="navbar-nav d-flex">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Tiếng Việt</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Tiếng Anh</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <img src="../../Bài Lab/Lab 3/Lab3 - Tài Nguyên/images/banner1.jpg" class="w-100" />
+        <div class="d-flex flex-column">
+            <div class="row mt-5">
+                <div class="col-lg-4">
+                    <div class="row mb-3">
+                        <h3 class="text-info mt-2">Chuyên mục</h3>
+                        <ul class="list-group">
+                            <li
+                                class="list-group-item active bg-info d-flex justify-content-between align-items-center">
+                                <a href="#" class="nav-link">Chế độ tập</a>
+                                <span class="badge bg-primary rounded-pill">12</span>
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between align-items-center">
+                                <a href="#" class="nav-link">Chế độ dinh dưỡng</a>
+                                <span class="badge bg-primary rounded-pill">15</span>
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between align-items-center">
+                                <a href="#" class="nav-link">Cẩm nang cuộc sống</a>
+                                <span class="badge bg-primary rounded-pill">99</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="row mb-3 me-0">
+                        <div class="card p-0">
+                            <div class="card-header">
+                                <h3 class="text-info">Bài viết nổi bật</h3>
+                            </div>
+
+                            <ul class="list-group rounded-0 border-0 ">
+                                <li class="list-group-item d-flex gap-3 justify-content-between align-items-center">
+                                    <img width="25%" class="rounded-5" src="../../Bài Lab/Lab 3/Lab3 - Tài Nguyên/images/spinach_300x300.jpg" />
+                                    <div>
+                                        <h5>Lợi ích khi ăn rau mỗi ngày</h5>
+                                        <p>Tiêu thụ rau xanh hằng ngày sẽ giúp tăng cường thể lực, kiểm soát cân nặng, ngăn ngừa ung thư...</p>
+                                    </div>
+                                </li>
+                                <li class="list-group-item d-flex gap-3 justify-content-between align-items-center">
+                                    <img width="25%" class="rounded-5" src="../../Bài Lab/Lab 3/Lab3 - Tài Nguyên/images/orange_300x300.jpg" />
+                                    <div>
+                                        <h5>9 tác dụng tuyệt vời của quả cam</h5>
+                                        <p>Cam tươi hòa và khả năng chống lão hóa mạnh mẽ nhờ hàm lượng chất chống oxy hóa cao...</p>
+                                      </div>
+                                </li>
+                                <li class="list-group-item d-flex gap-3 justify-content-between align-items-center">
+                                    <img width="25%" class="rounded-5" src="../../Bài Lab/Lab 3/Lab3 - Tài Nguyên/images/sesameoil_300x300.jpg" />
+                                    <div>
+                                        <h5>10 công dụng bất ngờ từ dầu dừa</h5>
+                                        <p>Dầu dừa như một loại kem dưỡng ẩm tự nhiên cho cơ thể, giúp việc sản xuất collagen trong các tế bào...</p>
+                                      </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-8 d-flex flex-column align-items-center">
+                    <div class="d-flex flex-column align-items-center">
+                        <h3 class="text-info mb-3 align-self-stretch">
+                            Tất cả bài viết
+                        </h3>
+                        <div class="row">
+                            <div class="col-lg-6 mb-2">
+                                <div class="card w-100">
+                                    <div class="card-header">
+                                        <span>Phương pháp tập Pilates giúp phục hồi chấn thương cột sống</span>
+                                        <ion-icon name="chatbox-ellipses"></ion-icon> 16
+                                    </div>
+                                    <img src="../../Bài Lab/Lab 3/Lab3 - Tài Nguyên/images/tap-pilates1.jpg"
+                                        class="card-img-top" />
+                                    <div class="card-body">
+                                        <p class="card-text">
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                            Explicabo eos similique quo omnis. Qui tenetur
+                                            laboriosam doloribus error saepe ipsam, in eius amet
+                                            magni iusto recusandae ducimus voluptatum, unde fugit.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 mb-2">
+                                <div class="card w-100">
+                                    <div class="card-header">
+                                        <span>Phương pháp tập Pilates giúp phục hồi chấn thương cột sống</span>
+                                        <ion-icon name="chatbox-ellipses"></ion-icon> 16
+                                    </div>
+                                    <img src="../../Bài Lab/Lab 3/Lab3 - Tài Nguyên/images/eat-clean.png"
+                                        class="card-img-top" />
+                                    <div class="card-body">
+                                        <p class="card-text">
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                            Explicabo eos similique quo omnis. Qui tenetur
+                                            laboriosam doloribus error saepe ipsam, in eius amet
+                                            magni iusto recusandae ducimus voluptatum, unde fugit.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 mb-2">
+                                <div class="card w-100">
+                                    <div class="card-header">
+                                        <span>Phương pháp tập Pilates giúp phục hồi chấn thương cột sống</span>
+                                        <ion-icon name="chatbox-ellipses"></ion-icon> 16
+                                    </div>
+                                    <img src="../../Bài Lab/Lab 3/Lab3 - Tài Nguyên/images/tap-piltes.jpg"
+                                        class="card-img-top" />
+                                    <div class="card-body">
+                                        <p class="card-text">
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                            Explicabo eos similique quo omnis. Qui tenetur
+                                            laboriosam doloribus error saepe ipsam, in eius amet
+                                            magni iusto recusandae ducimus voluptatum, unde fugit.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 mb-2">
+                                <div class="card w-100">
+                                    <div class="card-header">
+                                        <span>Phương pháp tập Pilates giúp phục hồi chấn thương cột sống</span>
+                                        <ion-icon name="chatbox-ellipses"></ion-icon> 16
+                                    </div>
+                                    <img src="../../Bài Lab/Lab 3/Lab3 - Tài Nguyên/images/tim-mach.jpg"
+                                        class="card-img-top" />
+                                    <div class="card-body">
+                                        <p class="card-text">
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                            Explicabo eos similique quo omnis. Qui tenetur
+                                            laboriosam doloribus error saepe ipsam, in eius amet
+                                            magni iusto recusandae ducimus voluptatum, unde fugit.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <nav aria-label="Page navigation example">
+                                <ul class="pagination justify-content-center">
+                                  <li class="page-item">
+                                    <a class="page-link" href="#" aria-label="Previous">
+                                      <span aria-hidden="true">&laquo;</span>
+                                    </a>
+                                  </li>
+                                  <li class="page-item"><a class="page-link active" href="#">1</a></li>
+                                  <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                  <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                  <li class="page-item">
+                                    <a class="page-link" href="#" aria-label="Next">
+                                      <span aria-hidden="true">&raquo;</span>
+                                    </a>
+                                  </li>
+                                </ul>
+                              </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<footer class="d-flex justify-content-center align-items-center top-50 bg-dark py-3">
+    <span class="text-light">© Copyright by FPT Polytechnic</span>
+</footer>
+
+</html>
